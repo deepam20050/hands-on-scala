@@ -1,0 +1,48 @@
+# Build artifacts
+target/
+project/target/
+.bloop/
+.metals/
+.sbt/
+.cache/
+logs/
+tmp/
+
+# IDE-specific files
+.idea/
+.vscode/
+.DS_Store
+*.iml
+*.ipr
+*.iws
+
+# Scala-specific
+*.class
+*.jar
+*.war
+*.zip
+*.log
+
+# Bloop
+.bloop/
+
+# SBT
+.sbt/
+project/project/
+project/target/
+project/build.properties
+project/plugins.sbt
+# Exclude SBT cache directories
+~/.sbt/
+~/.ivy2/
+~/.coursier/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Test reports
+test-reports/
+
+# Generated documentation
+docs/target/

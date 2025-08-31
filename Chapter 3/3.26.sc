@@ -1,4 +1,4 @@
-def hello2(name: Option[String]) {
+def hello2(name: Option[String]) = {
     for (s <- name) {
         println(s"Hi ${s}")
     }
