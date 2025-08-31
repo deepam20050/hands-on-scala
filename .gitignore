@@ -8,6 +8,10 @@ project/target/
 logs/
 tmp/
 
+*.scala-build
+*.metals
+*.vscode
+
 # IDE-specific files
 .idea/
 .vscode/
