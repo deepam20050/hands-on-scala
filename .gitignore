@@ -8,7 +8,7 @@ project/target/
 logs/
 tmp/
 
-*.scala-build
+.scala-build/
 *.metals
 *.vscode
 
