@@ -1,3 +1,5 @@
+**/*.pdf
+
 # Build artifacts
 target/
 project/target/
